@@ -1,0 +1,111 @@
+body {
+  width: auto;
+  height: auto;
+  background-color: #94eca7;
+  overflow: scroll;
+  font-family: "Poppins";
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 60px;
+  top: 0px;
+  left: 0px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 20px 20px;
+  position: absolute;
+}
+.nav-bar .logo {
+  padding-left: 20px;
+  position: absolute;
+}
+.nav-bar ul {
+  position: absolute;
+  padding: 18px;
+  padding-left: 50%;
+  margin-top: 0%;
+}
+.nav-bar ul li {
+  display: inline-block;
+  list-style: none;
+}
+.nav-bar ul li a {
+  text-decoration: none;
+  padding: 10px;
+  font-family: "Poppins";
+  color: black;
+}
+
+.event {
+  text-align: center;
+  padding-top: 100px;
+  position: relative;
+}
+
+.foo {
+  width: 40%;
+  padding: 20px;
+}
+.foo span {
+  content: "";
+  display: block;
+  position: absolute;
+  background: black;
+  width: 5px;
+  height: 100%;
+  margin-left: 48%;
+  margin-top: 45px;
+  border-radius: 20px;
+  padding-bottom: 50px;
+}
+.foo span h1 {
+  text-align: center;
+}
+
+.right {
+  position: absolute;
+  margin-left: 700px;
+}
+.right button {
+  border-radius: 5px;
+  width: 120px;
+  height: 40px;
+  border: none;
+  margin-left: 150px;
+  position: absolute;
+}
+
+#run {
+  position: absolute;
+  padding-top: 190px;
+}
+
+#intrested {
+  padding-top: 100px;
+}
+
+span {
+  content: "";
+  background-color: black;
+  position: absolute;
+  height: 5px;
+  width: 550px;
+  display: block;
+  margin-top: 38%;
+  margin-left: 49.8%;
+  border-radius: 5px;
+}
+
+.register {
+  margin-left: 45%;
+  height: 60px;
+  width: 120px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */
